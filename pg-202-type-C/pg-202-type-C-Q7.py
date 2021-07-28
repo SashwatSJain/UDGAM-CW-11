@@ -1,0 +1,2 @@
+math, phy, chem, CS, eng = int(input("marks in math : ")), int(input("marks in phy : ")), int(input("marks in chem : ")), int(input("marks in CS : ")), int(input("marks in eng : "))
+print(f"the mean marks are {(math+phy+chem+CS+eng)/5}")

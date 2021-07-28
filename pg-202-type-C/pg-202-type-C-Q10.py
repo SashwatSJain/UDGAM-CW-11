@@ -1,0 +1,1 @@
+print(f"{0.5*int(input('base : '))*int(input('height : '))}")
