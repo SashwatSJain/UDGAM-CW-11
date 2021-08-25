@@ -1,8 +1,13 @@
-a = int(input("num"))
-b = 0
-c = 1
-while c<=a:
-    print(c)
-    b=b+c
-    c+=1
-print("sum : ", b)
+a = int(input("range : "))
+notprime = []
+prime = []
+for x in range(1, a+1):
+    for y in range(2,x):
+        if x%y == 0:
+            prime.update(x)
+            break
+        else:
+            notprime.update(x)
+            pass
+
+print(prime, notprime)
