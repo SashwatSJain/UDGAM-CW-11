@@ -8,4 +8,3 @@ elif qty<100:
 
 else:
     print("total cost : ₹", qty*70)
-    
