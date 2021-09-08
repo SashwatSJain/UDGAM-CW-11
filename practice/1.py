@@ -7,8 +7,13 @@ while True:
     if x<=5:
         print(x)
 
-    elif x>10 and x<=15:
+    elif x <= 10:
+        pass
+
+    elif x<=15:
         print(x)
 
     else:
-        pass
+        break
+
+print("program over")
