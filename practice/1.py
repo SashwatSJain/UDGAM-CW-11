@@ -4,10 +4,10 @@
 x = 0
 while True:
     x+=1
-    if x>0 and x<6:
+    if x<=5:
         print(x)
 
-    elif x>10 and x<16:
+    elif x>10 and x<=15:
         print(x)
 
     else:
