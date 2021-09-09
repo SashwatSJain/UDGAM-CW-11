@@ -24,3 +24,18 @@ if sum == num:
 
 else:
     print("n")
+
+'''
+OUTPUT : 
+Output 1:
+Number : 101
+The number is not a Perfect number!
+----------------------------------------------------------------
+Output 2:
+Number : 6
+The number is a Perfect number!
+----------------------------------------------------------------
+Output 3:
+Number : 28
+The number is a Perfect number!
+'''
