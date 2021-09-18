@@ -1,0 +1,5 @@
+x = int(input("number : "))
+length = len(str(x))
+y = 10*length + int(str(x)[0])
+print("no. of digits : ", length)
+print(y)
