@@ -9,4 +9,3 @@ while True :
 l.sort()
 
 print("Largest Number is : ", l[-1])
-print(l)
