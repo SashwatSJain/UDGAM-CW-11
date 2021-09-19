@@ -33,13 +33,15 @@ for x in range(1, 4):
 # d)
 for x in range(7):
     t = x-1
-    print('* ', end='')
+    print('*', end='')
     if x==0:
         # print('')
         pass
     elif x<4:
         print(' '* t, '*', sep = '', end='')
+    elif x<6:
+        r = 5-x
+        print(' '*r,'*',  end = '', sep = '')
     else:
-        r = 6-x
-        print(' '*r,'*',  end = '')
+        pass
     print('')
