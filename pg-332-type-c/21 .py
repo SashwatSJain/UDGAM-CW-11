@@ -1,0 +1,14 @@
+from math import factorial
+x = int(input(""))
+summ = 0
+for i in range(1, 7):
+    n = (x**i)/factorial(i)
+    if i%2 == 0:
+        n*=-1
+    else:
+        pass
+
+    print(n)
+    summ += n
+    
+print(summ)
